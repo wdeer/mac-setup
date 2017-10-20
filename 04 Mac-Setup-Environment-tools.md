@@ -34,6 +34,10 @@ make sure the following has been added to your **~./zshrc** `export PATH="$HOME/
 	
 For more information on using nodenv, **run** `nodenv --help` or go to [github.com/nodenv/nodenv](https://github.com/nodenv/nodenv) for further documentation
 
+**NOTE:** On High Sierra you may run into an issue with OpenSSL not being found.. Adding the following alias somewhere in your $PATH (ie: **~/.zshrc**) will tell pyenv where to find the homebrew installed OpenSSL lib.
+
+	alias pyenv='CFLAGS="-I$(brew --prefix openssl)/include" LDFLAGS="-L$(brew --prefix openssl)/lib" pyenv'
+
 
 ## PHPBREW
 

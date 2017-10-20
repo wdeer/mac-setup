@@ -2,7 +2,7 @@
 
 Install all apps in list by running the following command:
 
-	brew cask install adapter adobe-creative-cloud alfred appcleaner atom caffeine dash disk-inventory-x firefox go2shell google-chrome-canary google-drive handbrake hosts imageoptim iterm2 java joinme karabiner libreoffice macdown microsoft-office malwarebytes-anti-malware onyx opera qlcolorcode qlimagesize qlmarkdown qlprettypatch qlstephen qlvideo quicklook-csv quicklook-json sequel-pro sketch sketch-toolbox skitch slack sqlitebrowser sqlitestudio tmux reattach-to-user-namespace textmate the-unarchiver transmit virtualbox visual-studio-code vlc
+	brew cask install adapter adobe-creative-cloud alfred appcleaner atom caffeine dash disk-inventory-x firefox go2shell handbrake hosts imageoptim iterm2 java joinme karabiner libreoffice macdown microsoft-office malwarebytes onyx opera qlcolorcode qlimagesize qlmarkdown qlprettypatch qlstephen qlvideo quicklook-csv quicklook-json sequel-pro sketch sketch-toolbox skitch slack sqlitestudio textmate the-unarchiver transmit virtualbox visual-studio-code vlc
 
 ### Web Dev
 
