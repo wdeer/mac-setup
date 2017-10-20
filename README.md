@@ -53,3 +53,9 @@ Manages php versions globally and project local
 ### SSH
 There also instructions on setting up an SSH key and sensible SSH Config defaults
 
+
+# coming soon
+
+...instructions for installing valet
+...instructions for customizing terminal
+...other stuff
