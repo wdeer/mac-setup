@@ -9,7 +9,7 @@ The following requires homebrew already be installed, if you have not yet done s
 
 	brew install rbenv pyenv nodenv the_silver_searcher ack z zsh awscli wget wpcli-completion dnsmasq git-town tree sqlite mariadb mcrypt nginx shellcheck pngquant mozjpeg tmux reattach-to-user-namespace wpcli-completion
 	
-	brew install homebrew/php/wp-cli homebrew/php/phpbrew
+	brew install homebrew/php/composer homebrew/php/phpbrew homebrew/php/wp-cli
 
 and install ffmpeg separately with some additional tools:
 

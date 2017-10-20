@@ -1,3 +1,5 @@
+# ... work in progress
+
 Configuring Terminal
 
 `ulimit -n 10240` - bumps the maximum number of file descriptors you can have open on your computer. There's no purpose for the default limit, especially on SSDs.

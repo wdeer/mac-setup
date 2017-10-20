@@ -2,7 +2,11 @@
 
 Install all apps in list by running the following command:
 
-	brew cask install adapter adobe-creative-cloud alfred appcleaner atom caffeine dash disk-inventory-x firefox go2shell handbrake hosts imageoptim iterm2 java joinme karabiner libreoffice macdown microsoft-office malwarebytes onyx opera qlcolorcode qlimagesize qlmarkdown qlprettypatch qlstephen qlvideo quicklook-csv quicklook-json sequel-pro sketch sketch-toolbox skitch slack sqlitestudio textmate the-unarchiver transmit virtualbox visual-studio-code vlc
+	brew cask install adapter adobe-creative-cloud alfred appcleaner atom caffeine dash disk-inventory-x firefox go2shell google-drive-file-stream handbrake hosts imageoptim iterm2 java joinme karabiner libreoffice macdown microsoft-office malwarebytes onyx opera qlcolorcode qlimagesize qlmarkdown qlprettypatch qlstephen qlvideo quicklook-csv quicklook-json sequel-pro sketch sketch-toolbox skitch slack sqlitestudio textmate the-unarchiver transmit virtualbox visual-studio-code vlc
+
+NOTE: some apps may be blocked stating that the system blocked an app by "Developer Name". If this is the case, simply go to system preferences and click **allow** then you can re-run the same command (everything that previously installed successfully will be skipped)
+
+Here are some more details on what was installed:
 
 ### Web Dev
 
@@ -33,15 +37,16 @@ Install all apps in list by running the following command:
 * **malwarebytes-anti-malware:** Clear out any viruses
 * **the-unarchiver:** alternative to Mac's Archive Utility
 * **karabiner:** A powerful and stable keyboard customizer for macOS
-* **disk-inventory-x:** 
+* **disk-inventory-x:** Running out of storage space? this will help you quickly identify where your largest files are.
 
 ### Collaboration
 * **slack:** Let's collaborate
 * **google-drive:** you know what this is
+* **dropbox:** you know what this is too
 
 ### Documentation
 * **microsoft-office:** duh
-* **libreoffice:** MS Office alternative
+* **libreoffice:** Lighter weight MS Office alternative
 * **macdown:** Markdown editor
 * **skitch:** Handy Screenshot tool
 * **dash:** Programming documenation (warning: can take up a lot of space!)
