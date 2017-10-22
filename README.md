@@ -1,14 +1,7 @@
 # README
 
-If you want to dive straight in:
+If you want to dive straight in just start with the 1st numbered file and continue on. Otherwise here is a breakdown of what these guides cover.
 
-1. [Initial Setup](01 Mac-Setup-Initial.md)
-2. [Install Brew Packages](02 Mac-Setup-Brew-Packages.md)
-3. [Install Brew Casks](03 Mac-Setup-Brew-Casks.md)
-4. [Setup Environment Tools](04 Mac-Setup-Environment-tools.md)
-5. [Configure Package Managers](05 Mac-Setup-Package-Manageres.md)
-6. [Mac Configs](06 Mac-Setup-Configs.md)
-7. [Further Customization of Terminal](07 Mac-Setup-Customizing-Terminal.md)
 
 # Mac Setup
 The guides contained within this repo will walk through setting up and configuring the following:
