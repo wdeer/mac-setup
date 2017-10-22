@@ -1,12 +1,14 @@
-##Brew Cask Packages
+#Brew Cask Packages
 
 Install all apps in list by running the following command:
 
-	brew cask install adapter adobe-creative-cloud alfred appcleaner atom caffeine dash disk-inventory-x firefox go2shell google-drive-file-stream handbrake hosts imageoptim iterm2 java joinme karabiner libreoffice macdown microsoft-office malwarebytes onyx opera qlcolorcode qlimagesize qlmarkdown qlprettypatch qlstephen qlvideo quicklook-csv quicklook-json sequel-pro sketch sketch-toolbox skitch slack sqlitestudio textmate the-unarchiver transmit virtualbox visual-studio-code vlc
+	brew cask install adapter adobe-creative-cloud alfred appcleaner atom caffeine dash disk-inventory-x firefox go2shell google-drive-file-stream handbrake hosts imageoptim iterm2 joinme karabiner libreoffice macdown onyx opera qlcolorcode qlimagesize qlmarkdown qlprettypatch qlstephen qlvideo quicklook-csv quicklook-json sequel-pro sketch sketch-toolbox skitch slack sqlitestudio textmate the-unarchiver transmit vagrant vagrant-manager visual-studio-code vlc
 
-NOTE: some apps may be blocked stating that the system blocked an app by "Developer Name". If this is the case, simply go to system preferences and click **allow** then you can re-run the same command (everything that previously installed successfully will be skipped)
+NOTE: some apps may be blocked stating that the system blocked an app by "Developer Name". If this is the case, simply go to system preferences and click **allow** then you can re-run the same command (everything that previously installed successfully will be skipped.) The following casks have been identified as being blocked initially:
+	
+	brew install virtualbox java microsoft-office
 
-Here are some more details on what was installed:
+## Here are some more details on what is installed:
 
 ### Web Dev
 
@@ -34,7 +36,6 @@ Here are some more details on what was installed:
 * **go2shell:** Nice finder utility to open the current directory in terminal/iterm
 * **hosts:** Nice OS X Preferences pane for managing /etc/hosts
 * **onyx:** Repair permissions, clear out old logs, refresh thy mac
-* **malwarebytes-anti-malware:** Clear out any viruses
 * **the-unarchiver:** alternative to Mac's Archive Utility
 * **karabiner:** A powerful and stable keyboard customizer for macOS
 * **disk-inventory-x:** Running out of storage space? this will help you quickly identify where your largest files are.
@@ -54,6 +55,8 @@ Here are some more details on what was installed:
 ### Tools
 * **imageoptim:** GUI for optimizing images
 * **virtualbox:** Install other Operating Systems in a virtual environement to replicate server environments 
+* **vagrant:**
+* **vagrant-manager**
 
 ###Database Management
 * **sequel-pro:** View/Edit your local dev MySQL databases
