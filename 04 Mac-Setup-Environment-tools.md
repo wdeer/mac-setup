@@ -44,7 +44,7 @@ make sure the following has been added to your **~./zshrc** `export PATH="$PATH:
 	brew install homebrew/php/composer
 
 ## Profile (~/.zshrc)
-By this point in time you should have a **~/.zshrc** file that looks similar to this:
+By this point in time you should have a **~/.zshrc** file that contains the following:
 
 	export PATH="$HOME/.rbenv/bin:$PATH"
 	export PATH="$HOME/.nodenv/bin:$PATH"
@@ -54,5 +54,8 @@ By this point in time you should have a **~/.zshrc** file that looks similar to 
 	eval "$(rbenv init -)"
 	eval "$(nodenv init -)"
 	eval "$(pyenv init -)"
+	
+	## if on MacOS 10.13 High Sierra
+	alias pyenv='CFLAGS="-I$(brew --prefix openssl)/include" LDFLAGS="-L$(brew --prefix openssl)/lib" pyenv'
 	
 This will insure that your installed versions of ruby (via rbenv), node (via nodenv), python (via pyenv), and composer are all initialized and available every time you open a terminal session and avoid the dreaded "Command not Found"
