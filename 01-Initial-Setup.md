@@ -32,6 +32,19 @@ When the key has been created there will be two files (**id_rsa** and **id_rsa.p
 
 note: If you are encountering any issues connecting to a server, re-run the ssh command and include the "-v" flag to get verbose output which will provide more details on what is causing the issue. If you are unable to diagnose the issue yourself send the verbose output to the Lead Development Coordinator (Wes Deer) for further diagnosis and to insure your SSH key has been added as an authorized key on the server.
 
+## Git
+You'll need to set your git username globally so that all repo configs default to your username:
+
+run:
+
+	git config --global user.name "YOUR.USERNAME"
+	git config --global user.email "youremail@address.com"
+
+Also, under your github's account settings you should add in your SSH key (id_rsa.pub) after which you can test your connection / add github to your "known\_hosts" by running:
+
+	ssh -T git@github.com
+
+If this is the first time you've tried connecting to Github over SSH you'll be prompted to add it to your known\_hosts, select **yes**.
 
 ## MacOS Defaults
 

@@ -22,6 +22,12 @@ First, go to [nodejs.org](https://nodejs.org/en/) to find out the latest stable 
 	
 For more information on using nodenv, **run** `nodenv --help` or go to [github.com/nodenv/nodenv](https://github.com/nodenv/nodenv) for further documentation
 
+Additional useful tools:
+
+	brew install nodenv/nodenv/nodenv-default-packages
+	brew install nodenv/nodenv/nodenv-npm-migrate
+	brew install nodenv/nodenv/nodenv-package-rehash
+
 ## PYENV
 
 First, go to [python.org](https://www.python.org/downloads/) to find out the latest stable version of **Python 2.\*\*** (2.7.14 at the time of writing)

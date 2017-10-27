@@ -41,7 +41,7 @@ NOTE: some apps may be blocked stating that the system blocked an app by "Develo
 * **disk-inventory-x:** Running out of storage space? this will help you quickly identify where your largest files are.
 
 ### Collaboration
-* **slack:** Let's collaborate
+* **slack:** Let's chat
 * **google-drive:** you know what this is
 * **dropbox:** you know what this is too
 
@@ -55,8 +55,8 @@ NOTE: some apps may be blocked stating that the system blocked an app by "Develo
 ### Tools
 * **imageoptim:** GUI for optimizing images
 * **virtualbox:** Install other Operating Systems in a virtual environement to replicate server environments 
-* **vagrant:**
-* **vagrant-manager**
+* **vagrant:** VirtualBox plugin for rapid dev server setups
+* **vagrant-manager** GUI for Vagrant
 
 ###Database Management
 * **sequel-pro:** View/Edit your local dev MySQL databases
@@ -68,14 +68,14 @@ NOTE: some apps may be blocked stating that the system blocked an app by "Develo
 * **adapter:** Video format converter
 
 ### Quicklook extended
-* **qlcolorcode:** 
-* **qlimagesize:** 
-* **qlmarkdown:** 
-* **qlprettypatch:** 
-* **qlstephen:** 
-* **qlvideo:** 
-* **quicklook-csv:** 
-* **quicklook-json:** 
+* **qlcolorcode:** Renders source code with syntax highlighting in mac quicklook
+* **qlimagesize:** Display the dimensions and size of an image in the title bar instead of the filename. Also preview some unsupported formats like WebP & bpg.
+* **qlmarkdown:** View Markdown documents in mac quicklook
+* **qlprettypatch:** View patch files in mac quicklook
+* **qlstephen:**  View plain text files (without a file extension) in mac quicklook
+* **qlvideo:** Displays thumbnails, static QuickLook previews, cover art and metadata for most types of video files in mac quicklook
+* **quicklook-csv:** View CSVs in mac quicklook
+* **quicklook-json:** View JSON in mac quicklook
 
 
 

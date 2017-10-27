@@ -44,6 +44,20 @@ Benefits are:
   * `ssh example`
  * Apps like **Transmit** or the **Alfred's SSH Workflow** will automatically look at this file and use it's configs.
 
+## Git
+You'll need to set your git username globally so that all repo configs default to your username:
+
+run:
+
+	git config --global user.name "YOUR.USERNAME"
+	git config --global user.email "youremail@address.com"
+
+Also, under your github's account settings you should add in your SSH key (id_rsa.pub) after which you can test your connection / add github to your "known\_hosts" by running:
+
+	ssh -T git@github.com
+
+If this is the first time you've tried connecting to Github over SSH you'll be prompted to add it to your known\_hosts, select **yes**.
+
 ## AWS Credentials
 
 In order to use the **awscli** or deploy any static sites to Amazon S3 you must first make sure your own AWS credentials are added to the **~/.aws/credentials** file.
