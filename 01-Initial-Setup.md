@@ -5,12 +5,14 @@ Download xcode from the mac app store and open it to start installing the necess
 ## Install .yadr
 
 There are a wealth of dotfile repos out there, YADR (Yet Another Dotfile Repo) being a tremendously popular option. YADR installs homebrew, zsh, and all sorts of cool bells and whistles. 
+It is recommended that you first fork https://github.com/skwp/dotfiles into your own github account then run the following in your terminal(replacing "skwp" with your own github username):
 
-To learn more about dotfiles visit
+	sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh `"
 
+For mor information on yadr and cutomizations see [https://github.com/skwp/dotfiles](https://github.com/skwp/dotfiles)
 
 ## Check Homebrew
-run `brew doctor` to see if there are any issues, if there are follow the provided instructions.
+Once yadr has installed, run `brew doctor` to see if there are any issues with homebrew, if there are follow the provided instructions to correct them.
 
 Cant chown /usr/local ? [click here](https://github.com/Homebrew/brew/issues/3228#issuecomment-332679274)
 
@@ -36,3 +38,20 @@ note: If you are encountering any issues connecting to a server, re-run the ssh 
 There are a number of things you can do to fine tune your Mac.. Some adjustments can be handled by digging through preferences, but many must be ran as a terminal command. Here is a pretty well maintained and currated list of such tweaks: [https://github.com/kevinSuttle/macOS-Defaults](https://github.com/kevinSuttle/macOS-Defaults/blob/master/.macos) 
 
 **note**: Instead of simply executing the .macos file, it is recommended that you go through the file and manually run commands only for the changes that you want.
+
+## TP Stuff
+
+### Forticlient
+In order to VPN into thinkpatented you must use forticlient to do so. First try to run `brew cask search forti` (assumming you've already installed .yadr which installed homebrew) if nothing is found then just head on over to [http://www.forticlient.com/downloads](http://www.forticlient.com/downloads) to grab the installer.
+
+Once installed enter the following settings:
+
+* **VPN Type:** SSL VPN
+* **Remote Gateway:** 66.148.163.130
+* **Cusomized Port:**	65443
+* **Username:** yourthinkpatentedusername
+
+After that you should be good to go. If you are trying to get to Monarch Web visit the following url [http://10.20.32.12/scripts/cgiip.exe/WService=wsgams1/sfws/sflogin.w](http://10.20.32.12/scripts/cgiip.exe/WService=wsgams1/sfws/sflogin.w)
+
+### Printers
+At the moment, see Louie (IT) for this.. more detailed instructions to come

@@ -6,7 +6,7 @@ Install all apps in list by running the following command:
 
 NOTE: some apps may be blocked stating that the system blocked an app by "Developer Name". If this is the case, simply go to system preferences and click **allow** then you can re-run the same command (everything that previously installed successfully will be skipped.) The following casks have been identified as being blocked initially:
 	
-	brew install virtualbox java microsoft-office
+	brew install virtualbox java microsoft-office silverlight
 
 ## Here are some more details on what is installed:
 

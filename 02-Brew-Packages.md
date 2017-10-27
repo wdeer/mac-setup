@@ -49,8 +49,8 @@ and install yarn without node so we can use the version of node that we'll insta
 
 
 ### Web Stack
-* **[dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html):** Allows for ".dev" TLDs for local dev testing
+* **[dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html):** Allows for ".dev" TLDs for local dev testing (required for valet)
 * **[nginx](https://nginx.org/):** Nginx webserver
 * **[sqlite](https://sqlite.org/):** SQLite DB
-* **[mariadb](https://mariadb.org/):** MySQL DB
+* **[mariadb](https://mariadb.org/):** MySQL DB (required for valet)
 * **[mcrypt](http://mcrypt.sourceforge.net/):** Encryption functions used by php and webserver
